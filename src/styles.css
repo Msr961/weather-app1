@@ -1,0 +1,131 @@
+input.city {
+  font-size: 20px;
+  width: 600px;
+  background: lavender;
+  margin: 10px;
+  border: lavender;
+  box-shadow: 3px 3px 10px 0px rgb(79, 189, 216);
+}
+
+.search {
+  font-size: 20px;
+  background: lavender;
+  color: grey;
+  border: lavender;
+  box-shadow: 3px 3px 5px 1px rgb(79, 189, 216);
+}
+input.city:hover {
+  background: rgb(175, 175, 238);
+  cursor: pointer;
+  color: white;
+}
+.search:hover {
+  background: rgb(175, 175, 238);
+  cursor: pointer;
+  color: white;
+}
+
+body {
+  background-attachment: scroll;
+  background-image: url("images/pexels-scott-webb-1048039.jpg");
+  background-attachment: fixed;
+  background-size: 1600px 950px;
+  background-position: bottom-left bottom;
+}
+div.middlle {
+  vertical-align: middle;
+  text-align: center;
+  position: relative;
+  display: table-cell;
+}
+.col-2 {
+  margin: 65px;
+}
+div.circle {
+  width: 300px;
+  height: 300px;
+  border-radius: 200px;
+  font-size: 50px;
+  background-image: url("images/pexels-scott-webb-1048039.jpg");
+  background-size: 550px;
+  background-position: bottom;
+  box-shadow: 5px 5px 10px 5px rgb(236, 235, 179);
+  margin-top: 5%;
+  position: relative;
+  left: -35px;
+  top: -10px;
+}
+div.weather {
+  width: 270px;
+  height: 300px;
+  border-radius: 50px;
+  box-shadow: 5px 5px 10px 5px rgb(236, 235, 179);
+  position: relative;
+  top: -10px;
+}
+.overcast {
+  position: absolute;
+  top: 10px;
+}
+li {
+  list-style-type: none;
+  margin-top: 10px;
+  font-size: 16px;
+  color: rgb(12, 97, 50);
+}
+header.current-city {
+  text-align: center;
+  color: white;
+  margin: 0;
+  padding: 0;
+  position: relative;
+  top: 45px;
+}
+h3 {
+  font-weight: 600;
+  font-size: 35px;
+}
+.sun {
+  position: absolute;
+  width: 40px;
+  height: 40px;
+  top: 65px;
+  left: 65px;
+  border-radius: 100px;
+  background: linear-gradient(
+    to bottom left,
+    rgba(255, 235, 59, 1) 0%,
+    rgba(249, 168, 37, 1) 90%
+  );
+  box-shadow: 2px 2px 30px rgba(255, 160, 0, 1);
+  animation: blink2s;
+}
+.current-temp {
+  position: relative;
+  left: 0px;
+  text-align: center;
+  font-size: 60px;
+  font-weight: 600;
+  color: rgb(238, 165, 6);
+  top: 20px;
+  text-shadow: 1px 1px 2px yellow, 3px 3px 5px rgb(236, 236, 172);
+}
+.units {
+  position: absolute;
+  bottom: -10px;
+  right: 55px;
+  font-size: 40px;
+}
+a {
+  font-size: 25px;
+  color: orange;
+  text-decoration: none;
+}
+.date {
+  position: relative;
+  bottom: -95px;
+  text-align: center;
+  font-size: 18px;
+  color: white;
+  font-weight: 600;
+}
